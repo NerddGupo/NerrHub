@@ -72,23 +72,6 @@ ScriptTab:AddButton({
 })
 
 ScriptTab:AddButton({
-	Name = "Basket Ball Legends(key: arcsocomp)",
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/arcadie69/Basketball-Legends/main/script"))()
-	Callback = function()
-		
-  	end    
-})
-
-ScriptTab:AddButton({
-	Name = "RoGhoul",
-	
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Roghoul", true))()
-  	end    
-})
-
-
-ScriptTab:AddButton({
 	Name = "Slap Battles (Slap Aura Will Kick/Ban)",
 	Callback = function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
