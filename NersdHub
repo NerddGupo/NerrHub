@@ -1,0 +1,131 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Nerd Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local ScriptTab = Window:MakeTab({
+	Name = "Script Tab",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local UniversalTab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = ScriptTab:AddSection({
+	Name = "Scripts"
+})
+
+local Section = UniversalTab:AddSection({
+	Name = "Universal"
+})
+
+ScriptTab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NerddGupo/BloxFruitFinal/main/BloxFruiit"))()
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Doors",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NerddGupo/DoorsNerdHubb/main/NerdHubDoors"))()
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/PA4M2ugH"))()
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Blade Ball",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Counter Blox",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))() 
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Arsenal",
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+	Callback = function()
+		
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "Basket Ball Legends(key: arcsocomp)",
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/arcadie69/Basketball-Legends/main/script"))()
+	Callback = function()
+		
+  	end    
+})
+
+ScriptTab:AddButton({
+	Name = "RoGhoul",
+	
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Roghoul", true))()
+  	end    
+})
+
+
+ScriptTab:AddButton({
+	Name = "Slap Battles (Slap Aura Will Kick/Ban)",
+	Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
+  	end    
+})
+
+UniversalTab:AddButton({
+	Name = "Aimbot/ESP",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+  	end    
+})
+
+UniversalTab:AddButton({
+	Name = "Inf Yield",
+	Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+UniversalTab:AddButton({
+	Name = "FE Troll Gui",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.lua"))()
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "Made By nerdgupo.#0000",
+	Callback = function()
+      print ('Hello')
+  	end    
+})
+
+CreditsTab:AddButton({
+	Name = "https://discord.gg/Phwh8HfZXw",
+	Callback = function()
+      print ('Hello')
+  	end    
+})
